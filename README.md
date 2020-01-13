@@ -9,7 +9,6 @@ Tem por objetivo normalizar as queries para os diversos bancos com diferentes no
 
 ```java
 
-// Import para não precisar escrever toda hora 'DataSourcePlanos'
 import static br.com.stockinfo.stockplanos.DataSourcePlanos.*;
 
 @Table(name = "Participante_web", dataSource = {METRUSFAMILIA, OABPREVRJ})
